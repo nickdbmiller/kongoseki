@@ -1,1 +1,28 @@
-{}
+{
+    "$schema": "https://json.schemastore.org/claude-code-settings.json",
+    "language": "english",
+    "autoUpdatesChannel": "stable",
+    "permissions": {
+        "defaultMode": "default",
+        "allow": [
+            "Bash(git add:*)"
+        ],
+        "ask": [
+            "Bash(gh pr create:*)",
+            "Bash(git commit:*)",
+            "WebSearch"
+        ],
+        "deny": [
+            "Read(*.env)",
+            "Bash(rm:*)",
+            "Bash(curl:*)",
+            "WebFetch"
+        ]
+    },
+    "enableAllProjectMcpServers": false,
+    "allowedMcpServers": [],
+    "strictKnownMarketplaces": [],
+    "enabledPlugins": {},
+    "disableAllHooks": true,
+    "respectGitignore": true
+}
