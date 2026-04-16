@@ -18,6 +18,11 @@ The blade that cuts illusion returns to the stone.
 
 > A whetstone for iteratively sharpening `Claude Code` itself — hooks, skills, agents, commands, MCP servers, `CLAUDE.md`, and settings — developed against an explicit `config root`, and promoted to the implicit `config root` only when proven.
 
+___
+> [!NOTE]
+> This project was created with AI assistance. I affirm that all AI-generated content underwent thorough review and evaluation. The final output accurately reflects my understanding and intended meaning. While AI was instrumental in the process, I maintain full responsibility for the content, its accuracy, and its presentation. I additionally encourage anyone who wants to use this repo to read and understand the scripts and commands therein. This disclosure is made in the spirit of transparency and to acknowledge the role of AI in the creation process.
+___
+
 ## Setup
 
 > [!IMPORTANT] 
