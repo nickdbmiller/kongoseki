@@ -1,3 +1,5 @@
+**/file-history/*
+!**/file-history/.gitkeep
 scratch/*
 !scratch/.gitkeep
 **/backups/*
