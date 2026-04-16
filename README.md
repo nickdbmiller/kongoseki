@@ -120,3 +120,28 @@ mind/              # explicit `config root` (CLAUDE_CONFIG_DIR target)
 4. **Promote** the files from `/mind` to implicit config at `~/.claude/`
     - Copy or symlink
     - Symlinking lets honing in this repo extend across every project at once.
+
+## FAQ
+
+<details>
+<summary>
+Can I use [AI flavor of choice] instead of `Claude`?
+</summary>
+
+> Not yet at least. I *won't* say it ***won't*** work with anything but `Claude`, but I haven't tried.
+
+</details>
+
+<details>
+<summary>
+Is this training a new AI model?
+</summary>
+
+> No, this project is only for improving one's configuration and trying new things.
+
+</details>
+
+___
+> [!NOTE]
+> This project is not in any way associated with [Anthropic](https://www.anthropic.com/) or the development of `Claude`, `Claude Code`, or any other tool, subsidiary, or property of such entities. It is not endorsed by them either. It does not contain source code from any of the above.
+___
