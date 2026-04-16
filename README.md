@@ -89,7 +89,7 @@ Four things gathered:
 
 `./mind` is trainable. Versioned. Reversible.
 
-An experimental space for Claude. Analogous to user scoped Claude, in a vacuum.
+An experimental space for `Claude`. Analogous to user-scoped `Claude`, in a vacuum.
 
 ## Layers
 
