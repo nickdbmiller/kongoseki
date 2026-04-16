@@ -20,7 +20,8 @@ The blade that cuts illusion returns to the stone.
 
 ## Setup
 
-> [!IMPORTANT] Requires a [`Claude` account](https://claude.ai/login) and [`Claude Code`](https://code.claude.com/docs/en/overview) installed.
+> [!IMPORTANT] 
+> Requires a [`Claude` account](https://claude.ai/login) and [`Claude Code`](https://code.claude.com/docs/en/overview) installed.
 
 Add the repo's `bin/` directory to your `$PATH` to make commands available:
 
