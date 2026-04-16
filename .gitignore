@@ -10,6 +10,7 @@ mind/ide/*
 mind/paste-cache/*
 mind/plans/*
 mind/plugins/*
+mind/plugins/marketplaces/*
 mind/projects/*
 mind/session-env/*
 mind/sessions/*
@@ -23,6 +24,9 @@ mind/telemetry/*
 !mind/paste-cache/.gitkeep
 !mind/plans/.gitkeep
 !mind/plugins/.gitkeep
+!mind/plugins/known_marketplaces.json
+!mind/plugins/marketplaces
+!mind/plugins/marketplaces/.gitkeep
 !mind/projects/.gitkeep
 !mind/session-env/.gitkeep
 !mind/sessions/.gitkeep
