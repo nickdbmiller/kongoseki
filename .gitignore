@@ -1,3 +1,5 @@
+**/projects/*
+!**/projects/.gitkeep
 **/plugins/*
 !**/plugins/.gitkeep
 **/file-history/*
