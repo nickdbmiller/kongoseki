@@ -37,7 +37,11 @@ meditate
 
 > Meditation is a contemplative discourse. The practice of training the `./mind` for attention and awareness to achieve a stable state.
 
-This repo provides an explicit `config root` at `./mind` and a launcher to activate it. Meditation sessions see `./mind` as their `config root` and run in a temporary folder, erased afer each session. No other configuration or context is loaded, allowing for a clean surface on which to improve.
+This repo provides an explicit `config root` at `./mind` and a launcher to activate it.
+
+Meditation sessions see `./mind` as their `config root` and run in a temporary folder, erased afer each session.
+
+No other configuration or context is loaded, allowing for a clean surface on which to improve.
 
 ## Config Root
 
