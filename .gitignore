@@ -1,3 +1,5 @@
+**/plugins/*
+!**/plugins/.gitkeep
 **/file-history/*
 !**/file-history/.gitkeep
 **/plans/*
