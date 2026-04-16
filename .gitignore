@@ -2,6 +2,8 @@ scratch/*
 !scratch/.gitkeep
 **/backups/*
 !**/backups/.gitkeep
+**/cache/*
+!**/cache/.gitkeep
 mind/settings.local.json
 .claude/settings.local.json
 .DS_Store
