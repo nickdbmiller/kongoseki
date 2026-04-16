@@ -3,24 +3,24 @@
 settings.local.json
 
 # mind
-!**/backups/.gitkeep
-!**/cache/.gitkeep
-!**/file-history/.gitkeep
-!**/plans/.gitkeep
-!**/plugins/.gitkeep
-!**/projects/.gitkeep
-!**/session-env/.gitkeep
-!**/sessions/.gitkeep
-!**/shell-snapshots/.gitkeep
-**/backups/*
-**/cache/*
-**/file-history/*
-**/plans/*
-**/plugins/*
-**/projects/*
-**/session-env/*
-**/sessions/*
-**/shell-snapshots/*
+!mind/backups/.gitkeep
+!mind/cache/.gitkeep
+!mind/file-history/.gitkeep
+!mind/plans/.gitkeep
+!mind/plugins/.gitkeep
+!mind/projects/.gitkeep
+!mind/session-env/.gitkeep
+!mind/sessions/.gitkeep
+!mind/shell-snapshots/.gitkeep
+mind/backups/*
+mind/cache/*
+mind/file-history/*
+mind/plans/*
+mind/plugins/*
+mind/projects/*
+mind/session-env/*
+mind/sessions/*
+mind/shell-snapshots/*
 
 # not mind
 !scratch/.gitkeep
