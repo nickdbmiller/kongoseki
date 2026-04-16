@@ -1,3 +1,5 @@
+**/session-env/*
+!**/session-env/.gitkeep
 **/projects/*
 !**/projects/.gitkeep
 **/plugins/*
