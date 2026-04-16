@@ -14,6 +14,7 @@ mind/projects/*
 mind/session-env/*
 mind/sessions/*
 mind/shell-snapshots/*
+mind/telemetry/*
 
 !mind/backups/.gitkeep
 !mind/cache/.gitkeep
@@ -26,6 +27,7 @@ mind/shell-snapshots/*
 !mind/session-env/.gitkeep
 !mind/sessions/.gitkeep
 !mind/shell-snapshots/.gitkeep
+!mind/telemetry/.gitkeep
 
 # not mind
 scratch/*
