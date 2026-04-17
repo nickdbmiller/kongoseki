@@ -5,8 +5,10 @@ settings.local.json
 # mind
 mind/backups/*
 mind/cache/*
+mind/debug/*
 mind/file-history/*
 mind/ide/*
+mind/image-cache/*
 mind/paste-cache/*
 mind/plans/*
 mind/plugins/*
@@ -19,8 +21,10 @@ mind/telemetry/*
 
 !mind/backups/.gitkeep
 !mind/cache/.gitkeep
+!mind/debug/.gitkeep
 !mind/file-history/.gitkeep
 !mind/ide/.gitkeep
+!mind/image-cache/.gitkeep
 !mind/paste-cache/.gitkeep
 !mind/plans/.gitkeep
 !mind/plugins/.gitkeep
