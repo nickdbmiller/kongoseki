@@ -129,27 +129,35 @@ Promotion is the act of incorporating configurations you like into your `Claude`
 > You *can* copy from `./mind` to `~/.claude/` directly, but it is not recommended.
 > `./mind` is in motion. Its contents may be experimental, incomplete, or mid-iteration. `./gate`, a staging directory at the repository root, provides an intermediate step. This preserves the isolation of `./mind` and lets you examine exactly what you are promoting. What you put in `~/.claude/` ***will*** change its behavior everywhere you use it on your machine. 
 
-1. **Manual promotion**
-   - Review the file in `./mind` to confirm it is ready.
-   - Stage it in `./gate`, mirroring the directory structure:
-     ```sh
-     mkdir -pv ./gate/path/to/
-     cp -iv ./mind/path/to/file ./gate/path/to/file
-     ```
-   - Review the staged file in `./gate` to be absolutely sure it is what you want:
-     ```sh
-     diff -y ./gate/path/to/file ~/.claude/path/to/file
-     ```
-   - Apply it to your live configuration:
-     ```sh
-     cp -iv ./gate/path/to/file ~/.claude/path/to/file
-     ```
+### Manual Promotion
+
+1. Review the file in `./mind` to confirm it is ready.
+
+2. Stage it in `./gate`, mirroring the directory structure:
+
+    ```sh
+    mkdir -pv ./gate/path/to/
+    cp -iv ./mind/path/to/file ./gate/path/to/file
+    ```
+
+3. Review the staged file in `./gate` to be absolutely sure it is what you want:
+
+    ```sh
+    diff -y ./gate/path/to/file ~/.claude/path/to/file
+    ```
+
+4. Apply it to your live configuration:
+
+    ```sh
+    cp -iv ./gate/path/to/file ~/.claude/path/to/file
+    ```
+
+---
 
 > [!CAUTION]
 > What you promote is entirely up to you, the human user. This repo and this workflow is just a means of discovering what you like and don't like. What is helpful, and what is not helpful. These are subjective and will vary widely depending on how you ultimately want to use `Claude`.
-
-> [!WARNING]
-> I can't stop you from letting `Claude` modify its own settings in [a giant uncontrolled loop of suffering](https://www.merriam-webster.com/dictionary/samsara), but keep in mind that if you let it run around in circles without examining it it ***will*** get impossible to determine if it is actually improving or not. AI is dumb. You are not.
+>
+> Furthermore, I can't stop you from letting `Claude` modify its own settings in [a giant uncontrolled loop of suffering](https://www.merriam-webster.com/dictionary/samsara), but keep in mind that if you let it run around in circles without examining it it ***will*** get impossible to determine if it is actually improving or not. AI is dumb. You are not.
 
 ## FAQ
 
