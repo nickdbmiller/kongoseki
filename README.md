@@ -26,20 +26,33 @@ ___
 ## Setup
 
 > [!IMPORTANT] 
-> Requires a [`Claude` account](https://claude.ai/login) and [`Claude Code`](https://code.claude.com/docs/en/overview) installed.
+> 0. Requires a [`Claude` account](https://claude.ai/login) and [`Claude Code`](https://code.claude.com/docs/en/overview) installed. And `gh` cli if you want it:
+>
+> ```sh
+> curl -fsSL https://claude.ai/install.sh | bash
+> brew install gh
+> ```
+>
 
-Add the repo's `bin/` directory to your `$PATH` to make commands available:
+1. Clone `kongoseki`:
 
-```sh
-# In your shell profile (~/.zshrc, ~/.bashrc, etc.)
-export PATH="$PATH:/path/to/kongoseki/bin"
-```
+    ```sh
+    gh repo clone nickdbmiller/kongoseki
+    ```
 
-Reload your shell, then invoke from anywhere:
-```sh
-source ~/.zshrc
-meditate
-```
+2. Add the repo's `bin/` directory to your `$PATH` to make commands available:
+
+    ```sh
+    # In your shell profile (~/.zshrc, ~/.bashrc, etc.)
+    export PATH="$PATH:/path/to/kongoseki/bin"
+    ```
+
+3. Reload your shell, then invoke from anywhere:
+
+    ```sh
+    source ~/.zshrc
+    meditate # starts an isolated Claude Code session.
+    ```
 
 ## Meditation
 
