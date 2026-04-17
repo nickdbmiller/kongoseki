@@ -34,6 +34,8 @@ mind/telemetry/*
 !mind/telemetry/.gitkeep
 
 # not mind
+gate/*
 scratch/*
 
+!gate/.gitkeep
 !scratch/.gitkeep
