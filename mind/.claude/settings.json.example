@@ -1,0 +1,8 @@
+# Personal default settings. Overridden by project and local scoped settings.
+# See https://code.claude.com/docs/en/settings#settings-files
+#
+# If you notice weird or unwanted behavior from Claude these settings might be getting overridden.
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  ...
+}
