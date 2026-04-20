@@ -1,0 +1,8 @@
+# Personal instructions loaded at the start of every session across every project.
+# See https://code.claude.com/docs/en/memory#claude-md-files
+#
+# Loaded alongside project level CLAUDE.md, which takes precedence when instructions conflict.
+#
+# This is a prompt not config, so Claude can and will ignore instructions from these files.
+#
+# ./mind/.claude/CLAUDE.md is analogous to ~/.claude/CLAUDE.md
