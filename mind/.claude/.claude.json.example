@@ -1,1 +1,8 @@
-{}
+# Claude state, UI preferences, OAuth, and other toggles. Must be gitignored.
+# See https://code.claude.com/docs/en/settings#global-config-settings
+{
+  "numStartups": 1,
+  "installMethod": "native",
+  "autoUpdates": false,
+  ...
+}
