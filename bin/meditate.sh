@@ -19,6 +19,6 @@ zafudir="$(mktemp -d /tmp/kongoseki-zafu.XXXXXX)"
 trap 'rm -rf "$zafudir"' EXIT
 cd "$zafudir"
 
-# Set Claude Code's config root to "kongoseki/mind/" (instead of ~/.claude/).
-# Run as a child process (not exec) so the shell survives to execute the trap.
-CLAUDE_CONFIG_DIR="$repo_root/mind" claude "$@"
+# Set Claude Code's config root to "kongoseki/mind/.claude/" (instead of ~/.claude/).
+# Runs claude as a child process so the shell survives to cleanup at session end.
+CLAUDE_CONFIG_DIR="$repo_root/mind/.claude" claude "$@"
