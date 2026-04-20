@@ -1,9 +1,15 @@
 # kongoseki
+.claude.json
+.claude.json.backup
 .DS_Store
 CLAUDE.local.md
 gate/*
+history.jsonl
+mcp-needs-auth-cache.json
+policy-limits.json
 scratch/*
 settings.local.json
+stats-cache.json
 
 !gate/.gitkeep
 !scratch/.gitkeep
