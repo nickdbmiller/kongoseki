@@ -32,5 +32,6 @@
   "autoUpdatesChannel": "stable",
   "tui": "fullscreen",
   "skipAutoPermissionPrompt": true,
-  "useAutoModeDuringPlan": false
+  "useAutoModeDuringPlan": false,
+  "autoMemoryEnabled": false
 }
