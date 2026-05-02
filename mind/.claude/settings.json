@@ -18,11 +18,15 @@
     ],
     "defaultMode": "default"
   },
+  "model": "sonnet[1m]",
   "enableAllProjectMcpServers": false,
   "allowedMcpServers": [],
   "disableAllHooks": true,
   "enabledPlugins": {},
   "strictKnownMarketplaces": [],
   "language": "english",
-  "autoUpdatesChannel": "stable"
+  "effortLevel": "high",
+  "autoUpdatesChannel": "stable",
+  "tui": "fullscreen",
+  "skipAutoPermissionPrompt": true
 }
