@@ -36,7 +36,8 @@ mind/.claude/usage-data/facets/*
 mind/.claude/usage-data/session-meta/*
 
 !mind/.claude/backups/.gitkeep
-!mind/.claude/cache/.gitkeep
+!mind/.claude/cache/changelog.md.example
+!mind/.claude/cache/my-closed-issues.json.example
 !mind/.claude/chrome/chrome-native-host.example
 !mind/.claude/debug/.gitkeep
 !mind/.claude/file-history/.gitkeep
