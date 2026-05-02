@@ -2,7 +2,7 @@
 .claude.json
 .claude.json.backup
 .DS_Store
-.swp
+*.swp
 CLAUDE.local.md
 gate/*
 history.jsonl
