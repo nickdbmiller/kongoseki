@@ -43,6 +43,7 @@ mind/.claude/telemetry/*
 !mind/.claude/paste-cache/.gitkeep
 !mind/.claude/plans/.gitkeep
 !mind/.claude/plugins/.gitkeep
+!mind/.claude/plugins/install-counts-cache.json.example
 !mind/.claude/plugins/known_marketplaces.json
 !mind/.claude/plugins/known_marketplaces.json.example
 !mind/.claude/plugins/marketplaces
