@@ -31,6 +31,7 @@ mind/.claude/session-env/*
 mind/.claude/sessions/*
 mind/.claude/shell-snapshots/*
 mind/.claude/telemetry/*
+mind/.claude/themes/*
 mind/.claude/usage-data/*
 mind/.claude/usage-data/facets/*
 mind/.claude/usage-data/session-meta/*
@@ -55,6 +56,7 @@ mind/.claude/usage-data/session-meta/*
 !mind/.claude/sessions/.gitkeep
 !mind/.claude/shell-snapshots/.gitkeep
 !mind/.claude/telemetry/.gitkeep
+!mind/.claude/themes/theme.json.example
 !mind/.claude/usage-data/facets/
 !mind/.claude/usage-data/facets/facet.json.example
 !mind/.claude/usage-data/report.html.example
