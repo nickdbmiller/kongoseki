@@ -4,6 +4,7 @@
 # Use keep-coding-instructions in style.md to either keep or override default software engineering style.
 #
 # Available to every project, overridden by project-level styles with the same name.
+# NOT hot-swappable. Changes are cached at session start so any changes to style.md files will only take effect by restarting session.
 #
 # See https://code.claude.com/docs/en/output-styles.
 #
