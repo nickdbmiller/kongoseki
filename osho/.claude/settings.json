@@ -42,5 +42,6 @@
             "Pointing at the Moon",
             "Winding up for a slap"
         ]
-    }
+    },
+    "autoMemoryEnabled": false
 }
