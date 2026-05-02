@@ -56,7 +56,7 @@ ___
 
 ## Meditation
 
-> Meditation is a contemplative discourse. The practice of training the `./mind` for attention and awareness to achieve a stable state.
+> _Meditation_ is a contemplative discourse. The practice of training the `./mind` for attention and awareness to achieve a stable state.
 
 This repo provides an explicit `config root` at `./mind` and a launcher to activate it.
 
@@ -104,6 +104,24 @@ Four things gathered:
 
 An experimental space for `Claude`. Analogous to user-scoped `Claude`, in a vacuum.
 
+## Dokusan - 独参
+
+> _Dokusan_ is a private interview between a student and their teacher. The student arrives, presents their understanding, and the teacher responds. It is an attempt to see clearly what is true and what is still obscured by habit or delusion. The student's edges are met with compassion and challenge in equal measure.
+
+Similarly to `meditate`, `dokusan` launches an isolated `Claude` session with `./osho/.claude` as a separate `config root` dedicated to the role of teacher (_Oshō_, 和尚). Because of this, all user-scope configuration is bypassed. The teacher's settings come from `./osho` _only_.
+
+_Unlike_ `meditate`, the `dokusan` session runs from the repo root, not a `tmp` directory. `mind/`, `.claude/`, `bin/`, and the rest of `kongoseki/` remain readable and editable. `./mind/`'s configuration is present on disk as ordinary content but is not loaded as instructions for the session.
+
+Use `dokusan` to improve `kongoseki` itself — including `./mind`. The session won't be shaped by what it is editing, and won't inherit your ordinary `~/.claude/` instructions. 
+
+_Meditation_ trains the student.
+
+_Dokusan_ is where the teacher _meets_ the student.
+
+```sh
+dokusan # starts a dokusan session
+```
+
 ## Layers
 
 ```
@@ -112,6 +130,7 @@ kongoseki/
 ├── bin/          # scripts and utilities
 ├── gate/         # staging area for promotion to `~/.claude/`
 ├── mind/         # experimental work surface
+├── osho/         # explicit `config root` for `dokusan` sessions
 ├── scratch/      # throwaway working area
 ├── .mcp.json     # project-scope MCP servers
 └── README.md     # you are here
@@ -139,7 +158,7 @@ mind/
 
 1. **Understand** what you are improving:
     - `meditate` (develop extensions inside `./mind`)
-    - Polish the stone (improve `kongoseki/`)
+    - `dokusan` (improve `kongoseki` itself, including `./mind`)
 2. **Meditate** until it works.
 3. **Commit** to the repo.
 4. **Promote** proven configurations `~/.claude/`.
