@@ -1,0 +1,21 @@
+# Output styles change Claude's response style. Great for getting it to be less insufferable.
+#
+# Applied at session start. Appended to system prompt. Set with /config or settings.json outputStyle.
+# Use keep-coding-instructions in style.md to either keep or override default software engineering style.
+#
+# Available to every project, overridden by project-level styles with the same name.
+#
+# See https://code.claude.com/docs/en/output-styles.
+#
+# Example:
+
+---
+description: Explains reasoning and asks you to implement small pieces
+keep-coding-instructions: true
+---
+
+After completing each task, add a brief "Why this approach" note
+explaining the key design decision.
+
+When a change is under 10 lines, ask the user to implement it
+themselves by leaving a TODO(human) marker instead of writing it.
