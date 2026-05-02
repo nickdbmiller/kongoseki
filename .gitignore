@@ -17,6 +17,7 @@ stats-cache.json
 # mind
 mind/.claude/backups/*
 mind/.claude/cache/*
+mind/.claude/chrome/*
 mind/.claude/debug/*
 mind/.claude/file-history/*
 mind/.claude/ide/*
@@ -33,6 +34,8 @@ mind/.claude/telemetry/*
 
 !mind/.claude/backups/.gitkeep
 !mind/.claude/cache/.gitkeep
+!mind/.claude/chrome/.gitkeep
+!mind/.claude/chrome/chrome-native-host.example
 !mind/.claude/debug/.gitkeep
 !mind/.claude/file-history/.gitkeep
 !mind/.claude/ide/.gitkeep
