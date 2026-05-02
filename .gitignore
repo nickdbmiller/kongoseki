@@ -41,7 +41,7 @@ mind/.claude/usage-data/session-meta/*
 !mind/.claude/chrome/chrome-native-host.example
 !mind/.claude/debug/.gitkeep
 !mind/.claude/file-history/.gitkeep
-!mind/.claude/ide/.gitkeep
+!mind/.claude/ide/ide.lock.example
 !mind/.claude/image-cache/.gitkeep
 !mind/.claude/paste-cache/.gitkeep
 !mind/.claude/plans/.gitkeep
