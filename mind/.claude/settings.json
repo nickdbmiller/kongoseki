@@ -33,5 +33,10 @@
   "tui": "fullscreen",
   "skipAutoPermissionPrompt": true,
   "useAutoModeDuringPlan": false,
-  "autoMemoryEnabled": false
+  "autoMemoryEnabled": false,
+  "voiceEnabled": false,
+  "voice": {
+    "enabled": false,
+    "mode": "hold"
+  }
 }
