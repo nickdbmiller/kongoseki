@@ -6,3 +6,13 @@
 # This is a prompt not config, so Claude can and will ignore instructions from these files.
 #
 # ./mind/.claude/CLAUDE.md is analogous to ~/.claude/CLAUDE.md
+#
+# Example:
+
+# Global preferences
+
+- Keep explanations concise
+- Use conventional commit format
+- Show the terminal command to verify changes
+- Prefer composition over inheritance
+- No emojis.
