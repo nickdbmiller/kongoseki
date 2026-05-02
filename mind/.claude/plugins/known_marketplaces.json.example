@@ -1,5 +1,16 @@
 # List of repo stores for mcp servers and plugins.
+#
+# Claude Code will always install, enable, and allow claude-plugins-official.
 # Seems to override allowedMcpServers and enabledPlugins settings.
 # Even with both set, Claude Code still runs anthropic's marketplace.
 
-{}
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "/path/to/.claude/plugins/marketplaces/claude-plugins-official",
+    "lastUpdated": "2026-05-02T17:12:19.526Z"
+  }
+}
