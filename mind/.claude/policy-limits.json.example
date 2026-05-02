@@ -1,4 +1,5 @@
 # Enterprise settings applied to members of an organization. Cannot be overridden.
+
 {
     "restrictions": {}
 }

@@ -1,5 +1,6 @@
 # Your private settings.
 # See https://code.claude.com/docs/en/settings#settings-files
+
 {
     "$schema": "https://json.schemastore.org/claude-code-settings.json"
 }

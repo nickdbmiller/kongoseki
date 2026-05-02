@@ -1,4 +1,5 @@
 # List of repo stores for mcp servers and plugins.
 # Seems to override allowedMcpServers and enabledPlugins settings.
 # Even with both set, Claude Code still runs anthropic's marketplace.
+
 {}
