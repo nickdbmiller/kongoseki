@@ -25,8 +25,12 @@
   "enabledPlugins": {},
   "strictKnownMarketplaces": [],
   "language": "english",
+  "alwaysThinkingEnabled": false,
   "effortLevel": "high",
+  "advisorModel": "opus",
+  "awaySummaryEnabled": false,
   "autoUpdatesChannel": "stable",
   "tui": "fullscreen",
-  "skipAutoPermissionPrompt": true
+  "skipAutoPermissionPrompt": true,
+  "useAutoModeDuringPlan": false
 }
