@@ -5,6 +5,7 @@
 CLAUDE.local.md
 gate/*
 history.jsonl
+managed-settings.json
 mcp-needs-auth-cache.json
 policy-limits.json
 scratch/*
@@ -61,3 +62,10 @@ mind/.claude/usage-data/session-meta/*
 !mind/.claude/usage-data/report.html.example
 !mind/.claude/usage-data/session-meta/
 !mind/.claude/usage-data/session-meta/session-meta.json.example
+
+# osho
+osho/.claude/backups
+osho/.claude/cache
+osho/.claude/plugins
+osho/.claude/projects
+osho/.claude/sessions
