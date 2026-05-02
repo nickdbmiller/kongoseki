@@ -37,7 +37,6 @@ mind/.claude/usage-data/session-meta/*
 
 !mind/.claude/backups/.gitkeep
 !mind/.claude/cache/.gitkeep
-!mind/.claude/chrome/.gitkeep
 !mind/.claude/chrome/chrome-native-host.example
 !mind/.claude/debug/.gitkeep
 !mind/.claude/file-history/.gitkeep
@@ -45,7 +44,6 @@ mind/.claude/usage-data/session-meta/*
 !mind/.claude/image-cache/.gitkeep
 !mind/.claude/paste-cache/.gitkeep
 !mind/.claude/plans/.gitkeep
-!mind/.claude/plugins/.gitkeep
 !mind/.claude/plugins/install-counts-cache.json.example
 !mind/.claude/plugins/known_marketplaces.json
 !mind/.claude/plugins/known_marketplaces.json.example
