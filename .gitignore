@@ -44,6 +44,7 @@ mind/.claude/telemetry/*
 !mind/.claude/plans/.gitkeep
 !mind/.claude/plugins/.gitkeep
 !mind/.claude/plugins/known_marketplaces.json
+!mind/.claude/plugins/known_marketplaces.json.example
 !mind/.claude/plugins/marketplaces
 !mind/.claude/plugins/marketplaces/.gitkeep
 !mind/.claude/projects/.gitkeep
