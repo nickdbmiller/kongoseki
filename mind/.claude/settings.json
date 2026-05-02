@@ -18,7 +18,7 @@
     ],
     "defaultMode": "default"
   },
-  "model": "sonnet[1m]",
+  "model": "opus[1m]",
   "enableAllProjectMcpServers": false,
   "allowedMcpServers": [],
   "disableAllHooks": true,
