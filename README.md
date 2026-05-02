@@ -60,7 +60,7 @@ ___
 
 This repo provides an explicit `config root` at `./mind` and a launcher to activate it.
 
-Meditation sessions see `./mind` as their `config root` and run in a temporary folder, erased afer each session.
+Meditation sessions see `./mind` as their `config root` and run in a temporary folder, erased after each session.
 
 No other configuration or context is loaded, allowing for a clean surface on which to improve.
 
@@ -107,20 +107,32 @@ An experimental space for `Claude`. Analogous to user-scoped `Claude`, in a vacu
 ## Layers
 
 ```
-.claude/           # project-scope config for kongoseki
-.mcp.json          # project-scope MCP servers
-scratch/           # throwaway files for experiments
-bin/               # scripts and utilities
+kongoseki/
+├── .claude/      # project-scope config for this repo
+├── bin/          # scripts and utilities
+├── gate/         # staging area for promotion to `~/.claude/`
+├── mind/         # experimental work surface
+├── scratch/      # throwaway working area
+├── .mcp.json     # project-scope MCP servers
+└── README.md     # you are here
 ```
 
 ```
-mind/              # explicit `config root` (CLAUDE_CONFIG_DIR target)
-├── CLAUDE.md      # experimental global instructions
-├── settings.json  # experimental settings
-├── agents/        # experimental subagents
-├── skills/        # experimental skills
-├── commands/      # experimental slash commands
-└── memory/        # auto-memory output
+mind/
+└── .claude/                  # explicit `config root` - mirrors `~/.claude/`
+    ├── agents/               # experimental subagents
+    ├── skills/               # experimental skills
+    ├── output-styles/        # experimental output styles
+    ├── rules/                # experimental rules
+    ├── themes/               # experimental themes
+    ├── plugins/              # experimental plugins
+    ├── memory/               # auto-memory
+    ├── CLAUDE.md             # experimental global instructions
+    ├── settings.json         # experimental settings
+    ├── settings.local.json   # local overrides
+    ├── keybindings.json      # experimental keybindings
+    ├── *.example             # tracked templates for ephemeral files
+    └── …                     # runtime artifacts (sessions/, cache/, telemetry/, …)
 ```
 
 ## Workflow
