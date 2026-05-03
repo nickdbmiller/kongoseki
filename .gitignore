@@ -6,6 +6,7 @@
 CLAUDE.local.md
 gate/*
 history.jsonl
+managed-mcp.json
 managed-settings.json
 mcp-needs-auth-cache.json
 policy-limits.json
