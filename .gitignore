@@ -65,12 +65,22 @@ mind/.claude/usage-data/session-meta/*
 !mind/.claude/usage-data/session-meta/session-meta.json.example
 
 # osho
+osho/.claude/agent-memory
 osho/.claude/backups
 osho/.claude/cache
+osho/.claude/chrome
+osho/.claude/debug
 osho/.claude/file-history
+osho/.claude/ide
+osho/.claude/image-cache
 osho/.claude/keybindings.json
 osho/.claude/memory
+osho/.claude/paste-cache
 osho/.claude/plans
 osho/.claude/plugins
 osho/.claude/projects
+osho/.claude/session-env
 osho/.claude/sessions
+osho/.claude/shell-snapshots
+osho/.claude/telemetry
+osho/.claude/usage-data
