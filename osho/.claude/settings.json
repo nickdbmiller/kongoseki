@@ -4,35 +4,7 @@
         "defaultMode": "default"
     },
     "model": "opus[1m]",
-    "alwaysThinkingEnabled": false,
-    "effortLevel": "high",
-    "awaySummaryEnabled": false,
-    "companyAnnouncements": [
-        "Polishing the stone."
-    ],
-    "autoUpdatesChannel": "stable",
-    "theme": "auto",
-    "editorMode": "normal",
-    "verbose": false,
-    "preferredNotifChannel": "notifications_disabled",
-    "autoCompactEnabled": false,
-    "fileCheckpointingEnabled": true,
-    "showTurnDuration": true,
-    "terminalProgressBarEnabled": true,
-    "remoteControlAtStartup": false,
-    "agentPushNotifEnabled": false,
-    "useAutoModeDuringPlan": false,
     "spinnerTipsEnabled": true,
-    "spinnerTipsOverride": {
-        "excludeDefault": false,
-        "tips": [
-            "Mu.",
-            " ",
-            "Is that so?",
-            "Take up goat farming.",
-            "Wash your bowls."
-        ]
-    },
     "spinnerVerbs": {
         "mode": "replace",
         "verbs": [
@@ -43,5 +15,39 @@
             "Winding up for a slap"
         ]
     },
-    "autoMemoryEnabled": false
+    "spinnerTipsOverride": {
+        "excludeDefault": false,
+        "tips": [
+            "Mu.",
+            " ",
+            "Is that so?",
+            "Take up goat farming.",
+            "Wash your bowls."
+        ]
+    },
+    "alwaysThinkingEnabled": false,
+    "effortLevel": "high",
+    "awaySummaryEnabled": false,
+    "companyAnnouncements": [
+        "Polishing the stone."
+    ],
+    "autoUpdatesChannel": "stable",
+    "tui": "fullscreen",
+    "autoMemoryEnabled": false,
+    "useAutoModeDuringPlan": false,
+    "theme": "auto",
+    "editorMode": "normal",
+    "verbose": false,
+    "preferredNotifChannel": "notifications_disabled",
+    "autoCompactEnabled": false,
+    "fileCheckpointingEnabled": true,
+    "showTurnDuration": true,
+    "terminalProgressBarEnabled": true,
+    "remoteControlAtStartup": false,
+    "agentPushNotifEnabled": false,
+    "voiceEnabled": false,
+    "voice": {
+        "enabled": false,
+        "mode": "hold"
+    }
 }
