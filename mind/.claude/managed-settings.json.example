@@ -21,6 +21,8 @@
     ],
     "forceLoginMethod": "claudeai",
     "forceLoginOrgUUID": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "skipWebFetchPreflight": false,
+    "companyAnnouncements": [],
     "pluginTrustMessage": "Careful there cowboy.",
     "allowManagedMcpServersOnly": false,
     "blockedMarketplaces": [],

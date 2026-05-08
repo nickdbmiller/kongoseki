@@ -4,6 +4,122 @@
 # If you notice weird or unwanted behavior from Claude these settings might be getting overridden.
 
 {
-  "$schema": "https://json.schemastore.org/claude-code-settings.json",
-  ...
+    "$schema": "https://json.schemastore.org/claude-code-settings.json",
+    "$docs": "https://code.claude.com/docs/en/settings",
+    "autoMemoryEnabled": false,
+    "autoUpdatesChannel": "stable",
+    "claudeMdExcludes": [],
+    "cleanupPeriodDays": 30,
+    "env": {},
+    "attribution": {
+        "commit": "",
+        "pr": ""
+    },
+    "includeGitInstructions": true,
+    "respectGitignore": true,
+    "permissions": {
+        "allow": [
+            "Bash(git add:*)"
+        ],
+        "ask": [
+            "Bash(gh pr create:*)",
+            "Bash(git commit:*)"
+        ],
+        "deny": [
+            "Read(*.env)",
+            "Bash(rm:*)",
+            "Bash(curl:*)"
+        ],
+        "defaultMode": "default"
+    },
+    "language": "english",
+    "model": "default",
+    "effortLevel": "medium",
+    "fastMode": false,
+    "fastModePerSessionOptIn": false,
+    "feedbackSurveyRate": 0.05,
+    "enableAllProjectMcpServers": true,
+    "enabledMcpjsonServers": [],
+    "disabledMcpjsonServers": [],
+    "allowedMcpServers": [],
+    "deniedMcpServers": [],
+    "httpHookAllowedEnvVars": [],
+    "hooks": {
+        "PreToolUse": [],
+        "PostToolUse": [],
+        "PostToolUseFailure": [],
+        "PermissionRequest": [],
+        "Notification": [],
+        "UserPromptSubmit": [],
+        "Stop": [],
+        "StopFailure": [],
+        "SubagentStart": [],
+        "SubagentStop": [],
+        "PreCompact": [],
+        "PostCompact": [],
+        "Elicitation": [],
+        "ElicitationResult": [],
+        "TeammateIdle": [],
+        "TaskCompleted": [],
+        "Setup": [],
+        "InstructionsLoaded": [],
+        "CwdChanged": [],
+        "FileChanged": [],
+        "ConfigChange": [],
+        "WorktreeCreate": [],
+        "WorktreeRemove": [],
+        "SessionStart": [],
+        "SessionEnd": []
+    },
+    "disableAllHooks": false,
+    "allowedChannelPlugins": [],
+    "allowedHttpHookUrls": [],
+    "enabledPlugins": {},
+    "extraKnownMarketplaces": {},
+    "strictKnownMarketplaces": [],
+    "skippedMarketplaces": [],
+    "skippedPlugins": [],
+    "outputStyle": "default",
+    "skipWebFetchPreflight": false,
+    "sandbox": {},
+    "spinnerVerbs": {
+        "mode": "append",
+        "verbs": [
+            "Hallucinating"
+        ]
+    },
+    "spinnerTipsEnabled": true,
+    "spinnerTipsOverride": {
+        "excludeDefault": false,
+        "tips": [
+            "Switching to your sidearm is faster than reloading."
+        ]
+    },
+    "terminalProgressBarEnabled": true,
+    "showTurnDuration": true,
+    "prefersReducedMotion": false,
+    "alwaysThinkingEnabled": false,
+    "companyAnnouncements": [
+        "Big brother is watching you."
+    ],
+    "teammateMode": "auto",
+    "pluginConfigs": {},
+    "channelsEnabled": false,
+    "defaultShell": "bash",
+    "showClearContextOnPlanAccept": false,
+    "showThinkingSummaries": false,
+    "skipDangerousModePermissionPrompt": false,
+    "tui": "default",
+    "viewMode": "default",
+    "useAutoModeDuringPlan": false,
+    "voiceEnabled": false,
+    "awaySummaryEnabled": true,
+    "theme": "auto",
+    "editorMode": "normal",
+    "verbose": false,
+    "preferredNotifChannel": "notifications_disabled",
+    "autoCompactEnabled": false,
+    "fileCheckpointingEnabled": true,
+    "remoteControlAtStartup": false,
+    "agentPushNotifEnabled": false
 }
