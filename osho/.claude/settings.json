@@ -139,7 +139,17 @@
     "outputStyle": "default",
     "skipWebFetchPreflight": false,
     "sandbox": {
-        "enabled": false
+        "enabled": false,
+        "allowUnsandboxedCommands": false,
+        "autoAllowBashIfSandboxed": false,
+        "enableWeakerNestedSandbox": false,
+        "enableWeakerNetworkIsolation": false,
+        "excludedCommands": [
+            "sudo"
+        ],
+        "filesystem": {},
+        "ignoreViolations": {},
+        "network": {}
     },
     "spinnerVerbs": {
         "mode": "replace",
