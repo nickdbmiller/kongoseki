@@ -1,9 +1,18 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "$docs": "https://code.claude.com/docs/en/settings",
+  "autoMemoryEnabled": false,
+  "autoUpdatesChannel": "stable",
+  "includeGitInstructions": true,
   "respectGitignore": true,
   "permissions": {
     "allow": [
       "Bash(git add:*)"
+    ],
+    "ask": [
+      "Bash(gh pr create:*)",
+      "Bash(git commit:*)",
+      "WebSearch"
     ],
     "deny": [
       "Read(*.env)",
@@ -11,32 +20,41 @@
       "Bash(curl:*)",
       "WebFetch"
     ],
-    "ask": [
-      "Bash(gh pr create:*)",
-      "Bash(git commit:*)",
-      "WebSearch"
-    ],
     "defaultMode": "default"
   },
+  "language": "english",
   "model": "opus[1m]",
+  "effortLevel": "high",
+  "fastMode": false,
+  "fastModePerSessionOptIn": true,
+  "feedbackSurveyRate": 0,
   "enableAllProjectMcpServers": false,
   "allowedMcpServers": [],
   "disableAllHooks": true,
   "enabledPlugins": {},
   "strictKnownMarketplaces": [],
-  "language": "english",
+  "outputStyle": "default",
+  "spinnerTipsEnabled": true,
+  "terminalProgressBarEnabled": true,
+  "showTurnDuration": true,
+  "prefersReducedMotion": false,
   "alwaysThinkingEnabled": false,
-  "effortLevel": "high",
+  "teammateMode": "auto",
   "advisorModel": "opus",
-  "awaySummaryEnabled": false,
-  "autoUpdatesChannel": "stable",
-  "tui": "fullscreen",
+  "channelsEnabled": false,
+  "defaultShell": "bash",
+  "disableDeepLinkRegistration": "disable",
+  "showThinkingSummaries": true,
   "skipAutoPermissionPrompt": true,
+  "tui": "fullscreen",
+  "viewMode": "default",
   "useAutoModeDuringPlan": false,
-  "autoMemoryEnabled": false,
   "voiceEnabled": false,
-  "voice": {
-    "enabled": false,
-    "mode": "hold"
-  }
+  "awaySummaryEnabled": false,
+  "theme": "dark-ansi",
+  "editorMode": "normal",
+  "preferredNotifChannel": "notifications_disabled",
+  "autoCompactEnabled": false,
+  "remoteControlAtStartup": false,
+  "agentPushNotifEnabled": false
 }
