@@ -193,7 +193,7 @@
     "useAutoModeDuringPlan": false,
     "voiceEnabled": false,
     "awaySummaryEnabled": false,
-    "theme": "auto",
+    "theme": "custom:zen",
     "editorMode": "normal",
     "verbose": false,
     "preferredNotifChannel": "notifications_disabled",
