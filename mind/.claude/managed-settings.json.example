@@ -1,1 +1,34 @@
-{}
+# Enterprise settings applied to members of an organization. Cannot be overridden.
+
+{
+    "$schema": "https://www.schemastore.org/claude-code-settings.json",
+    "$docs": "https://code.claude.com/docs/en/settings",
+    "allowedMcpServers": [],
+    "deniedMcpServers": [],
+    "disableAllHooks": false,
+    "allowedChannelPlugins": [],
+    "allowManagedHooksOnly": false,
+    "allowManagedPermissionRulesOnly": false,
+    "strictKnownMarketplaces": [
+        {
+            "source": "github",
+            "repo": "acme-corp/approved-plugins"
+        },
+        {
+            "source": "npm",
+            "package": "@acme-corp/compliance-plugins"
+        }
+    ],
+    "forceLoginMethod": "claudeai",
+    "forceLoginOrgUUID": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "pluginTrustMessage": "Careful there cowboy.",
+    "allowManagedMcpServersOnly": false,
+    "blockedMarketplaces": [],
+    "autoMode": {},
+    "disableDeepLinkRegistration": "disable",
+    "disableSkillShellExecution": false,
+    "forceRemoteSettingsRefresh": true,
+    "minimumVersion": "2.1.0",
+    "strictPluginOnlyCustomization": false,
+    "wslInheritsWindowsSettings": false
+}
