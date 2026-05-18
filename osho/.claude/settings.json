@@ -35,9 +35,8 @@
       "Bash(git:*)",
       "Bash(rm:*)",
       "Bash(source:*)",
-      "WebSearch",
-      "WebSearch(domain:medium.com)",
-      "WebSearch(domain:stackoverflow.com)"
+      "WebFetch",
+      "WebSearch"
     ],
     "deny": [
       "Bash(*.sh)",
@@ -75,7 +74,6 @@
       "Read(*.env)",
       "Read(*.lock)",
       "Read(*.ssh)",
-      "WebFetch",
       "WebSearch(domain:bsky.app)",
       "WebSearch(domain:facebook.com)",
       "WebSearch(domain:instagram.com)",
