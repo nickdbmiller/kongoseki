@@ -1,4 +1,63 @@
 {
     "$schema": "https://json.schemastore.org/claude-code-settings.json",
-    "$docs": "https://code.claude.com/docs/en/settings"
+    "$docs": "https://code.claude.com/docs/en/settings",
+    "claudeMdExcludes": [
+        "**/kongoseki/mind/.claude/CLAUDE.md"
+    ],
+    "env": {},
+    "attribution": {
+        "commit": "",
+        "pr": ""
+    },
+    "permissions": {
+        "allow": [
+            "Bash(git diff:*)",
+            "Bash(git log:*)",
+            "Bash(git status:*)",
+            "Bash(ls:*)"
+        ],
+        "ask": [
+            "Bash",
+            "Bash(cat:*)",
+            "Bash(claude:*)",
+            "Bash(curl:*)",
+            "Bash(eval:*)",
+            "Bash(exec:*)",
+            "Bash(gh:*)",
+            "Bash(git:*)",
+            "Bash(rm:*)",
+            "Bash(sh:*)",
+            "Bash(source:*)",
+            "Bash(telnet:*)",
+            "WebFetch",
+            "WebSearch"
+        ],
+        "deny": [
+            "Bash(curl * | bash)",
+            "Bash(curl * | sh)",
+            "Bash(git push --force-with-lease:*)",
+            "Bash(git push --force:*)",
+            "Bash(rm -rf:*)",
+            "Bash(ssh-:*)",
+            "Bash(ssh:*)",
+            "Bash(sudo:*)",
+            "Read(*.env)",
+            "WebSearch(domain:bsky.app)",
+            "WebSearch(domain:facebook.com)",
+            "WebSearch(domain:instagram.com)",
+            "WebSearch(domain:quora.com)",
+            "WebSearch(domain:reddit.com)",
+            "WebSearch(domain:twitter.com)",
+            "WebSearch(domain:x.com)"
+        ]
+    },
+    "companyAnnouncements": [
+        "Polishing the stone."
+    ],
+    "feedbackSurveyRate": 0,
+    "remoteControlAtStartup": false,
+    "useAutoModeDuringPlan": false,
+    "awaySummaryEnabled": false,
+    "fileCheckpointingEnabled": true,
+    "promptSuggestionEnabled": false
 }
