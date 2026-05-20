@@ -30,7 +30,8 @@
             "Bash(rm:*)",
             "Bash(curl:*)"
         ],
-        "defaultMode": "default"
+        "defaultMode": "default",
+        "additionalDirectories": []
     },
     "language": "english",
     "model": "default",
@@ -41,8 +42,6 @@
     "enableAllProjectMcpServers": true,
     "enabledMcpjsonServers": [],
     "disabledMcpjsonServers": [],
-    "allowedMcpServers": [],
-    "deniedMcpServers": [],
     "httpHookAllowedEnvVars": [],
     "hooks": {
         "PreToolUse": [],
@@ -81,7 +80,36 @@
     "skippedPlugins": [],
     "outputStyle": "default",
     "skipWebFetchPreflight": false,
-    "sandbox": {},
+    "sandbox": {
+        "enabled": false,
+        "allowUnsandboxedCommands": false,
+        "autoAllowBashIfSandboxed": false,
+        "enableWeakerNestedSandbox": false,
+        "enableWeakerNetworkIsolation": false,
+        "excludedCommands": [
+        "sudo"
+        ],
+        "filesystem": {
+            "allowRead": [],
+            "allowWrite": [],
+            "denyRead": [],
+            "denyWrite": []
+        },
+        "ignoreViolations": {},
+        "network": {
+            "socksProxyPort": 1,
+            "allowAllUnixSockets": false,
+            "allowedDomains": [],
+            "allowLocalBinding": false,
+            "allowManagedDomainsOnly": true,
+            "allowMachLookup": [
+                "com.example-domain.example.*"
+            ],
+            "allowUnixSockets": [],
+            "deniedDomains": [],
+            "httpProxyPort": 2
+        }
+    },
     "spinnerVerbs": {
         "mode": "append",
         "verbs": [
@@ -104,7 +132,6 @@
     ],
     "teammateMode": "auto",
     "pluginConfigs": {},
-    "channelsEnabled": false,
     "defaultShell": "bash",
     "showClearContextOnPlanAccept": false,
     "showThinkingSummaries": false,
