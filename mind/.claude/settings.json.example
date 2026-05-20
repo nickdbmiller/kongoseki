@@ -75,7 +75,6 @@
     "allowedHttpHookUrls": [],
     "enabledPlugins": {},
     "extraKnownMarketplaces": {},
-    "strictKnownMarketplaces": [],
     "skippedMarketplaces": [],
     "skippedPlugins": [],
     "outputStyle": "default",
