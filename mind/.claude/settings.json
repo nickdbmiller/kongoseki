@@ -3,6 +3,13 @@
   "$docs": "https://code.claude.com/docs/en/settings",
   "autoMemoryEnabled": false,
   "autoUpdatesChannel": "stable",
+  "claudeMdExcludes": [],
+  "cleanupPeriodDays": 30,
+  "env": {},
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
   "includeGitInstructions": true,
   "respectGitignore": true,
   "permissions": {
@@ -20,19 +27,16 @@
       "Bash(curl:*)",
       "WebFetch"
     ],
-    "defaultMode": "default"
+    "defaultMode": "default",
+    "disableBypassPermissionsMode": "disable",
+    "additionalDirectories": []
   },
-  "language": "english",
-  "model": "opus[1m]",
-  "effortLevel": "high",
   "fastMode": false,
   "fastModePerSessionOptIn": true,
   "feedbackSurveyRate": 0,
   "enableAllProjectMcpServers": false,
-  "allowedMcpServers": [],
   "disableAllHooks": true,
   "enabledPlugins": {},
-  "strictKnownMarketplaces": [],
   "outputStyle": "default",
   "spinnerTipsEnabled": true,
   "terminalProgressBarEnabled": true,
@@ -41,7 +45,6 @@
   "alwaysThinkingEnabled": false,
   "teammateMode": "auto",
   "advisorModel": "opus",
-  "channelsEnabled": false,
   "defaultShell": "bash",
   "disableDeepLinkRegistration": "disable",
   "showThinkingSummaries": true,
